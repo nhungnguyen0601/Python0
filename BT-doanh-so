@@ -1,0 +1,12 @@
+doanh_so = float(input("Nhập doanh số bán hàng: "))
+
+if doanh_so >= 1000000:
+    thuong = doanh_so * 0.05
+elif doanh_so >= 500000:
+    thuong = doanh_so * 0.03
+elif doanh_so >= 100000:
+    thuong = doanh_so * 0.01
+else:
+    thuong = 0
+
+print(f"Tiền thưởng là: {thuong} VND")
