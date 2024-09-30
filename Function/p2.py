@@ -1,7 +1,7 @@
-# def functionString(a):
-    # print("hello world")
+def functionString(a):
+    print("hello world")
 
-#b = functionString("hello world") 
+b = functionString("hello world") 
 def so_chan(a):
     if a % 2 ==0:
         print("day la so chan")
