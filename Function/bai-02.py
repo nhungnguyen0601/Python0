@@ -11,4 +11,4 @@ def giai_thua(n):
 
 so = int(input("Nhap so: "))
 
-print(f"Gia thua cua {so} la: {giai_thua(so)}")
+print(f"Giai thua cua {so} la: {giai_thua(so)}")
