@@ -1,0 +1,1 @@
+#viết hàm đếm số lượng ký tự hoa, ký tự thường trong một chuỗ
