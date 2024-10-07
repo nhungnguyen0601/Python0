@@ -16,11 +16,11 @@ class Student(Person):
         self.grade = grade
 
     def study(self):
-        print(f"Hoc sinh ten {self.name}, Tuoi: {self.age}, co diem thi: {self.grade}")
-
-call = Student("Nhung", 30, 9) 
-# call.greet
-call.study()
+        print(f"Hoc sinh ten: {self.name}, Tuoi: {self.age}, co diem thi: {self.grade}")
+#Tạo một đối tượng Student và gọi các phương thức từ cả lớp cha và lớp con.
+student1 = Student("Nhung", 30, 9) 
+student1.greet()
+student1.study()
 
 
         
